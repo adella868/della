@@ -148,7 +148,7 @@
             <textarea id="description" name="description" rows="3" placeholder="Jelaskan pengaduan Anda" required></textarea>
 
             <label for="file">Unggah Dokumen atau Foto (Maks. 2MB)</label>
-            <input type="file" id="file" name="file" accept=".jpg,.jpeg,.png,.pdf" aria-label="Unggah file pendukung">
+            <input type="file" id="file_dokumen" name="file_dokumen" accept=".jpg,.jpeg,.png,.pdf" aria-label="Unggah file pendukung">
             
             <button type="submit">Kirim Pengaduan</button>
         </form>
