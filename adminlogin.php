@@ -6,6 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
+    // warning in here, this code may can get SQL Injection, so you must change and give "?" question mark for make you SQL code safely
     $query = "SELECT * FROM admin WHERE username = '$username' AND password = '$password'";
     $result = mysqli_query($conn, $query);
 
